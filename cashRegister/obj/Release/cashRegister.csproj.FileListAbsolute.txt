@@ -1,0 +1,12 @@
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\bin\Release\cashRegister.exe.manifest
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\bin\Release\cashRegister.application
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\bin\Release\cashRegister.exe
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\bin\Release\cashRegister.pdb
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.Form1.resources
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.Properties.Resources.resources
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.csproj.GenerateResource.Cache
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.exe.manifest
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.application
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.exe
+C:\Users\Sakar\Documents\Visual Studio 2008\Projects\cashRegister\cashRegister\obj\Release\cashRegister.pdb

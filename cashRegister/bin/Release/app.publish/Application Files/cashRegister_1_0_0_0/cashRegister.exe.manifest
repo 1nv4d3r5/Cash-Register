@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="cashRegister.exe" version="1.0.0.0" publicKeyToken="94409371bcba50e9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="cashRegister" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="cashRegister.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="cashRegister.exe" size="12288">
+      <assemblyIdentity name="cashRegister" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6FeyjsxDP4bDjMoMQ69gChUdY30=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Zion-PC\Sakar" issuerKeyHash="0021be6051032b095d8d41e5e53802a1d131276d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yhSo0/RQ1/YurWJgxOiOMns2mVE=</DigestValue></Reference></SignedInfo><SignatureValue>Vf/QmNScg9cW1SAT5S5kF3R0KlnvnQXeT/IhA6kyFCkZzoWVdPCVi5styc7nfPrLgC21EZMI0dyykBYE3fJvKXSHFFP21WuaLP5nYtaNwUiNi0Sa67S6vqOr879kKdqQ4X5nS5UFdXOXPOkWLO2CpL3Un4rMqg3G/iengRZ1ijg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>iZRJfscT8jgDV6kYH3lfbEh0RjimB6hGOZDIqMk1TfFaQu9oIhZVZiFcklVtGsHCuiGInY7rSXl0J+qxEo1OKe1q+P0++IqzOLsNoppFZwXbwV9ylTxxN1E8WiW9SYl+T1NF8bXGoTvJ69aLfoJa2wpq4/KOC2Fem4koea4SCjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5199367b328ee8c46062ad2ef6d750f4d3a814ca" Description="" Url=""><as:assemblyIdentity name="cashRegister.exe" version="1.0.0.0" publicKeyToken="94409371bcba50e9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Zion-PC\Sakar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pzTOZle0XPQqAS05iHWhvN4DZck=</DigestValue></Reference></SignedInfo><SignatureValue>S5nnr/5msKzkZpyDNPNKavnijDmQy7c03hHJIP03l8mzFylxwpCg/df92feNPHdkqDApfp0n3vwmxiB6duVoqWpgN7skwl8QLtRixkD+8rhXncZqudXMK6snySQt5X1TNDmrLS4tiNsWEha+/aNpb5oND/AwION4EkG4ESLpC5A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>iZRJfscT8jgDV6kYH3lfbEh0RjimB6hGOZDIqMk1TfFaQu9oIhZVZiFcklVtGsHCuiGInY7rSXl0J+qxEo1OKe1q+P0++IqzOLsNoppFZwXbwV9ylTxxN1E8WiW9SYl+T1NF8bXGoTvJ69aLfoJa2wpq4/KOC2Fem4koea4SCjU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQFJ1gzi9FKIJAdKE/NbOXCDANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAWgBpAG8AbgAtAFAAQwBcAFMAYQBrAGEAcjAeFw0wOTA5MTgwNjM1NDFaFw0xMDA5MTgxMjM1NDFaMCUxIzAhBgNVBAMeGgBaAGkAbwBuAC0AUABDAFwAUwBhAGsAYQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJlEl+xxPyOANXqRgfeV9sSHRGOKYHqEY5kMioyTVN8VpC72giFlVmIVySVW0awcK6IYidjutJeXQn6rESjU4p7Wr4/T74irM4uw2imkVnBdvBX3KVPHE3UTxaJb1JiX5PU0XxtcahO8nr1ot+glrbCmrj8o4LYV6biSh5rhIKNQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAEb2KCvnMrcmRyCcxH7cinmU7yVJNwsinmryzlCxmmdTS1HjUfMAdYZgs1NdksZjORYUsrYevQSZ/idv6Er7u0yKx3vB3N24Aoj7ZdhbQZhNz/+NTAwf4jJ04L6dfB5+qT+xoJNhLRvkLylkBD7bZ0MGMTavj7U+S2cya3dC6rUw</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
