@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cashRegister">
+</Property><Property Name="Solution File" Value="C:\Users\the.000\Cash-Register\cashRegister.sln">
+</Property><Property Name="Date" Value="Monday, May 21, 2012">
+</Property><Property Name="Time" Value="20:14 PM">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="cashRegister.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="cashRegister.sln" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister.sln">
+</Event><Event ErrorLevel="3" Project="cashRegister" Source="cashRegister\cashRegister.csproj" Description="OneWayUpgrade">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\cashRegister.csproj" Description="Project file successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\cashRegister.csproj">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\cashRegister.csproj.user" Description="Project user file successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\cashRegister.csproj.user">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Form1.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Form1.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Form1.Designer.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Item.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Item.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\ItemList.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\ItemList.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Program.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Program.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Properties\Settings.settings" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Form1.resx" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Form1.resx">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\Properties\Resources.resx" Description="File successfully backed up as C:\Users\the.000\Cash-Register\Backup\cashRegister\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\cashRegister.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="cashRegister" Source="cashRegister\cashRegister.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="cashRegister.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="cashRegister.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cashRegister" Source="cashRegister\cashRegister.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -7,31 +7,33 @@ namespace cashRegister
 {
     class ItemList
     {
-        private LinkedList<Item> list;
+        private LinkedList<Item> theList;
         private String str;
         private LinkedListNode<Item> current;
         private double tQuantity;
        
         public ItemList()
         {
-            list = new LinkedList<Item>();
+            theList = new LinkedList<Item>();
+            //current = theList.First;
         }
 
         public void addToLast(Item itObj)
         {
-            list.AddLast(itObj);
+            theList.AddLast(itObj);
+            //current = theList.First;
         }
 
 
         public void clearList()
         {
-            list.Clear();
+            theList.Clear();
         }
 
         public double getTotalQuantity()
         {
             tQuantity = 0.00;
-            current = list.First;
+            current = theList.First;
 
             while(current !=null)
             {
@@ -46,7 +48,7 @@ namespace cashRegister
         public String displayList()
         {
 
-            current = list.First;
+            current = theList.First;
             str = "";
             while (current != null)
             {
